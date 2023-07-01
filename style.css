@@ -67,7 +67,7 @@ body:before{
 .main-content form input[type='text']::placeholder{
     color:rgba(255,255,255,0.9);
 }
-.main-content form input[type='text']:hover{
+.main-content form input[type='text']:hover, .main-content form input[type='text']:focus{
     background:rgba(0,0,0,0.3)
 }
 .header button{
